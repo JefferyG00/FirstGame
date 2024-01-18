@@ -25,7 +25,7 @@
     gap: 2vmin;
   }
   .button-option {
-    background: #ffffff;
+    background: white;
     height: 22vmin;
     width: 22vmin;
     border: none;
@@ -38,8 +38,8 @@
     font-size: 1.3em;
     padding: 1em;
     border-radius: 8px;
-    background-color: #0a0027;
-    color: #ffffff;
+    background-color: black;
+    color: white;
     border: none;
     position: relative;
     margin: 1.5em auto 0 auto;
@@ -61,13 +61,13 @@
   #new-game {
     font-size: 0.6em;
     padding: 0.5em 1em;
-    background-color: #0a0027;
-    color: #ffffff;
+    background-color: black;
+    color: white;
     border-radius: 0.2em;
     border: none;
   }
   #message {
-    color: #ffffff;
+    color: white;
     text-align: center;
     font-size: 1em;
   }
