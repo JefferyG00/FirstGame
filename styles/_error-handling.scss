@@ -1,0 +1,7 @@
+// styles/_error-handling.scss
+@mixin validate-color($color) {
+    @if (type-of($color) != 'color') {
+      @error '#{$color} is not a valid color';
+    }
+  }
+  

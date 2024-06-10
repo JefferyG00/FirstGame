@@ -1,0 +1,9 @@
+// styles/_functions.scss
+@function rem($px) {
+    @return $px / $base-font-size * 1rem;
+  }
+  
+  @function em($px, $context: $base-font-size) {
+    @return $px / $context * 1em;
+  }
+  

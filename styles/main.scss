@@ -1,0 +1,21 @@
+// styles/main.scss
+@import 'variables';
+@import 'mixins';
+@import 'functions';
+@import 'partials';
+@import 'error-handling';
+
+body {
+  font-family: $font-stack;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+
+.wrapper {
+  text-align: center;
+  padding: $spacer;
+}
+
+h1 {
+  margin-bottom: $spacer;
+}

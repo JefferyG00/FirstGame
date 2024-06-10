@@ -1,0 +1,15 @@
+// styles/_mixins.scss
+@mixin transition($properties: all, $time: $transition-time) {
+    transition: $properties $time ease-in-out;
+  }
+  
+  @mixin box-shadow($shadow: $box-shadow) {
+    box-shadow: $shadow;
+  }
+  
+  @mixin container {
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 0 $container-padding;
+  }
+  
